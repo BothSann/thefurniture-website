@@ -20,6 +20,7 @@ body {
   font-family: "Mukta", sans-serif;
 }
 
+/* Navigation Section */
 .navbar {
   width: 100%;
   height: 19rem;
@@ -124,3 +125,297 @@ body {
   letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
+/* End of Navigation Section */
+
+/* Hero Section */
+
+.hero {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+.hero__bg {
+  position: absolute;
+  top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 65rem;
+  background-color: #0b3954;
+  border-radius: 3rem;
+}
+
+.hero__banner {
+  width: 60%;
+  height: 65rem;
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  border-radius: 3rem;
+}
+
+.hero__banner--img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3rem;
+  opacity: 0.8;
+}
+
+.hero__banner--heading {
+  position: absolute;
+  top: 10rem;
+  right: 5rem;
+  font-size: 8rem;
+  text-transform: uppercase;
+  text-align: right;
+  color: #fff;
+  width: 40%;
+  line-height: 1;
+  text-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.8);
+}
+
+.hero__banner--btn {
+  position: absolute;
+  top: 28rem;
+  width: 18rem;
+  height: 4rem;
+  border: none;
+  border-radius: 3rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.4s;
+}
+
+.hero__banner--btn-1 {
+  right: 25rem;
+  background-color: #f8872b;
+  color: #fff;
+}
+.hero__banner--btn-1:hover {
+  background-color: #fff;
+  color: #f8872b;
+}
+.hero__banner--btn-1:hover ~ .hero__banner--btn-2 {
+  background-color: #f8872b;
+  color: #fff;
+}
+.hero__banner--btn-2 {
+  right: 5rem;
+  background-color: #fff;
+  color: #f8872b;
+}
+/* End of Hero Section */
+
+/* Products Section */
+.products {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
+  padding-top: 5rem;
+}
+
+.products__top {
+  width: 60%;
+
+  text-transform: uppercase;
+}
+
+.tertiary-heading {
+  font-size: 2rem;
+  color: #073e72;
+}
+
+.secondary-heading {
+  font-size: 7rem;
+  color: #f8872b;
+}
+
+.primary-heading {
+  font-size: 9rem;
+  color: #073e72;
+  text-transform: uppercase;
+}
+
+.minus-mt {
+  margin-top: -5rem;
+}
+
+.products__icons {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.products__icons--wrapper {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  width: 18rem;
+  height: 20rem;
+  padding: 3rem 0;
+  background-color: #f7f7f7;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.products__icons--wrapper:hover {
+  background-color: #fff;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+}
+
+.products__icons--wrapper span {
+  font-size: 2.5rem;
+  color: #073e72;
+}
+
+/* Pricing Section */
+.pricing {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20rem;
+  text-transform: uppercase;
+}
+
+.pricing__top {
+  /* background-color: rgb(40, 117, 117); */
+  display: flex;
+  align-items: center;
+  gap: 20rem;
+  margin-bottom: 15rem;
+}
+
+.pricing__top--content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.pricing__top--heading {
+  font-size: 7rem;
+  color: #073e72;
+  width: 50rem;
+  line-height: 1;
+}
+
+.pricing__btn {
+  align-self: flex-start;
+  width: 18rem;
+  height: 4rem;
+  background-color: #fff;
+  border: 0.1rem solid #f8872b;
+  border-radius: 3rem;
+  font-size: 1.6rem;
+  color: #f8872b;
+  cursor: pointer;
+  text-transform: inherit;
+  transition: all 0.3s;
+}
+
+.pricing__btn:hover {
+  background-color: #f8872b;
+  color: #fff;
+}
+
+.pricing__cards {
+  /* background-color: orangered; */
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+
+.pricing__card {
+  width: 30rem;
+  height: 45rem;
+  background-color: #f7f7f7;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.pricing__card--icons {
+  position: absolute;
+  gap: 1rem;
+  top: 2rem;
+  right: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing__card--icons i {
+  width: 3rem;
+  height: 3rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  color: #073e72;
+  box-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(2rem);
+  transition: all 0.3s;
+}
+
+.pricing__card:hover .pricing__card--icons i {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.pricing__card--img-wrapper {
+  /* background-color: brown; */
+  width: 20rem;
+  height: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.pricing__card--name {
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  color: #073e72;
+}
+
+.pricing__card--stars i {
+  font-size: 1.6rem;
+  color: #f8872b;
+}
+
+.pricing__card--price {
+  font-size: 1.8rem;
+  color: #073e72;
+}
+
+.btn--center {
+  align-self: center;
+}
+
+/* End of Pricing Section */
