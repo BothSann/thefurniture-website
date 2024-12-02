@@ -21,6 +21,11 @@ body {
   font-family: "Mukta", sans-serif;
 }
 
+.container {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 /* Navigation Section */
 .navbar {
   width: 100%;
