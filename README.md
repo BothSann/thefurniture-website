@@ -15,7 +15,6 @@ Welcome to **The Furniture Website**! This project showcases a beautifully desig
 
 ---
 
-## 📂 Project Structure
 ## 📸 Screenshots
 
 ![Hero Section](screenshots/screenshot-1.PNG)
