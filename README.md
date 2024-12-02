@@ -41,7 +41,7 @@ Check out the live version of the website at: [The Furniture Website](https://bo
 
 1. Clone this repository to your local machine.
    ```bash
-   git clone https://github.com/BothSann/thecreative-website.git
+   git clone https://github.com/BothSann/thefurniture-website.git
 
 ---
 
