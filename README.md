@@ -4,12 +4,6 @@ Welcome to **The Furniture Website**! This project showcases a beautifully desig
 
 ---
 
-## 🌐 Live Demo
-
-Check out the live version of the website at: [The Furniture Website](https://bothsann.github.io/thefurniture-website/)
-
----
-
 ## 🌟 Features
 
 - **Hero Section**: A stunning hero banner with a background image and call-to-action buttons.
