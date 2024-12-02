@@ -18,10 +18,10 @@ Welcome to **The Furniture Website**! This project showcases a beautifully desig
 ## 📂 Project Structure
 ## 📸 Screenshots
 
-![Hero Section](screenshots/screenshot-1.png)
-![Products Section](screenshots/screenshot-2.png)
-![Pricing Section](screenshots/screenshot-3.png)
-![Blog & Contact Section](screenshots/screenshot-4.png)
+![Hero Section](screenshots/screenshot-1.PNG)
+![Products Section](screenshots/screenshot-2.PNG)
+![Pricing Section](screenshots/screenshot-3.PNG)
+![Blog & Contact Section](screenshots/screenshot-4.PNG)
 
 ## 🛠️ Technologies Used
 
