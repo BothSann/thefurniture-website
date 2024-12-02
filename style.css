@@ -417,5 +417,38 @@ body {
 .btn--center {
   align-self: center;
 }
-
 /* End of Pricing Section */
+
+/* Blog Section */
+.blog {
+  width: 100%;
+  height: 80vh;
+  background-color: #073e72;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog__content {
+  background-color: cyan;
+  width: 50%;
+  height: 50rem;
+  border-radius: 5rem;
+}
+
+.blog__top {
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.blog__top--megazine-img {
+  margin-top: 5rem;
+}
+
+.blog__top--trends {
+}
+.blog__article {
+  background-color: orange;
+}
